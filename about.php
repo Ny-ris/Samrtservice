@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agence Web | Site Pro</title>
+    <!-- Liens des styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+        integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container navbar">
+            <!-- logo -->
+            <a href="index.php" class="logo">Smart<span>Service</span> </a>
+
+            <!-- menus -->
+            <ul class="nav-links">
+                <li><a href="index.php"><i class="fas fa-home"></i>Accueil</a></li>
+                <li><a href="services.php"><i class="fas fa-wrench"></i>Services</a></li>
+                <li><a href="portfolio.php"><i class="fas fa-briefcase"></i>Portfolio</a></li>
+                <li><a href="about.php"><i class="fas fa-info-circle"></i>A Propos</a></li>
+                <li><a href="contact.php"><i class="fas fa-address-book"></i>Contact</a></li>
+            </ul>
+            <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+        </div>
+    </header>
+
+    <!-- Banière de service -->
+    <section class="main-header">
+        <div class="container">
+            <h1 data-aos="fade-down">À Propos de Nous</h1>
+            <p data-aos="fade-up">Découvrez notre histoire, nos valeurs et notre équipe passionnée.</p>
+        </div>
+    </section>
+
+    <!-- Section Notre histoires -->
+    <section class="our-story">
+        <div class="container">
+            <h2>Notre histoire</h2>
+            <div class="content">
+                <div class="text"  data-aos="fade-right" >
+                <style>
+        .text {
+            text-align: justify;
+        }
+    </style>
+                    <p>
+                    Smart Service est une entreprise dynamique spécialisée dans les solutions technologiques adaptées aux besoins des entreprises et des particuliers. Nous intervenons dans divers domaines pour accompagner nos clients dans leur transformation digitale et leur fournir des outils modernes et performants. Grâce à notre expertise, nous aidons les entreprises à se démarquer dans un monde de plus en plus connecté.
+                    </p>
+                    <p>
+                    Nous concevons et développons des sites web et des applications mobiles sur mesure, alliant design attrayant et fonctionnalités avancées. Qu'il s'agisse d'un site vitrine, d'une boutique en ligne ou d'une application personnalisée, nous utilisons les technologies les plus récentes pour créer des solutions robustes et évolutives. Nous offrons également des services de SEO et de marketing digital pour améliorer la visibilité de nos clients en ligne et attirer un public cible grâce à des campagnes optimisées.
+                    </p>
+                    <p>
+                    La sécurité informatique est au cœur de nos préoccupations. Nous proposons des audits, des solutions de protection contre les cybermenaces, et des dispositifs de sécurisation des données et des infrastructures. Nos services incluent la mise en place de pare-feu, de VPN et d'autres outils essentiels pour garantir un environnement numérique sûr et fiable. De plus, nous sommes spécialisés dans la conception et l'installation de réseaux informatiques, qu'ils soient destinés à des entreprises ou à des usages domestiques.
+                    </p>
+                    <p>
+                    Chez Smart Service, nous sommes animés par un engagement constant envers la qualité et la satisfaction de nos clients. Notre équipe dévouée et expérimentée travaille avec soin pour comprendre vos besoins et fournir des solutions sur mesure. Avec Smart Service, vous bénéficiez d'une expertise technologique complète qui soutient la croissance et le succès de vos projets.
+                    </p>
+                </div>
+                <div class="image" data-aos="fade-left">
+                    <img src="assets/images/histoire.jpg" alt="Notre histoire">
+                </div>
+            </div>
+           
+        </div>
+    </section>
+
+    <!-- Nos valeurs -->
+    <section class="our-values">
+        <div class="container">
+            <h2 data-aos="fade-up">Nos Valeurs</h2>
+            <div class="values-grid">
+                <div class="value-item">
+                    <h3>Innovation</h3>
+                    <p>Nous sommes constamment à la recherche de nouvelles idées pour améliorer nos services.</p>
+                </div>
+                <div class="value-item">
+                    <h3>Qualité</h3>
+                    <p>La satisfaction de nos clients est au cœur de nos préoccupations</p>
+                </div>
+                <div class="value-item">
+                    <h3>Éthique</h3>
+                    <p>Nous privilégions des pratiques responsables et durables.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section nos equipes -->
+    <section class="our-team">
+        <div class="container">
+            <h2 data-aos="fade-up">Rencontrez notre équipe </h2>
+            <div class="team-grid">
+                <div class="team-member" data-aos="flip-left">
+                    <img src="assets/images/team1.jpg" alt="">
+                    <h3>Jean Dupont</h3>
+                    <p>CEO & Fondateur</p>
+                </div>
+                <div class="team-member" data-aos="flip-left">
+                    <img src="assets/images/team2.jpg" alt="">
+                    <h3>Marie Laurent</h3>
+                    <p>Responsable de la Sécurité des Systèmes d'Information</p>
+                </div>
+                <div class="team-member" data-aos="flip-left">
+                    <img src="assets/images/team3.jpg" alt="">
+                    <h3>Paul Martin</h3>
+                    <p>Ingénieur Développeur </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secton de footer -->
+    <footer>
+        <div class="container">
+        <p>© 2025 Smart Service. Tous droits réservés. | Conception et développement par Smart Service.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+        integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="js/main.js"></script>
+    <script src="js/about.js"></script>
+</body>
+
+</html>
